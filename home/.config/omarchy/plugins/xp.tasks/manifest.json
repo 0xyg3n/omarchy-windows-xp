@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "xp.tasks",
+  "name": "XP Task Buttons",
+  "version": "1.0.0",
+  "description": "Workspace buttons styled as XP taskbar window buttons",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Tasks",
+    "description": "XP-style task buttons",
+    "category": "Compositor",
+    "allowMultiple": false,
+    "defaultSection": "left"
+  }
+}

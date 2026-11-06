@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "xp.notify",
+  "name": "XP Notification Area",
+  "version": "1.0.0",
+  "description": "Windows XP system tray well with clock",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Notify",
+    "description": "XP notification area",
+    "category": "Compositor",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}

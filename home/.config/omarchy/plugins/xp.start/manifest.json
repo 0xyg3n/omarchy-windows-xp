@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "xp.start",
+  "name": "Windows XP Start",
+  "version": "1.0.0",
+  "description": "XP Start button and Start menu",
+  "kinds": [
+    "menu",
+    "bar-widget",
+    "service"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "menu": "Menu.qml",
+    "barWidget": "BarWidget.qml",
+    "service": "TaskbarSkin.qml"
+  },
+  "barWidget": {
+    "displayName": "Start",
+    "description": "Windows XP Start button",
+    "category": "Compositor",
+    "allowMultiple": false,
+    "defaultSection": "left"
+  }
+}

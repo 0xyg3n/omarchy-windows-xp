@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "bar": {
+    "background": "opaque",
+    "layout": {
+      "left": [
+        {
+          "id": "xp.start"
+        },
+        {
+          "id": "xp.launch"
+        },
+        {
+          "id": "xp.tasks"
+        }
+      ],
+      "center": [],
+      "right": [
+        {
+          "id": "xp.notify"
+        }
+      ],
+      "centerBegin": [],
+      "centerEnd": [],
+      "tray": []
+    },
+    "position": "bottom",
+    "transparent": true
+  }
+}

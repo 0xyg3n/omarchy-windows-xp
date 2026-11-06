@@ -1,0 +1,13 @@
+Privacy review of this export
+
+Only the explicitly selected XP theme assets and appearance settings were read
+into this package. Git data, caches, backups, logs, browser profiles, shell
+history, SSH/cloud credentials, and unrelated plugins/settings were excluded.
+Local username and machine-name checks: passed.
+Absolute personal home-path checks: passed.
+Credential-pattern and private-network-address checks: passed.
+PNG text/EXIF/time chunks and JPEG EXIF/IPTC/comment metadata were removed.
+The preview image is Bliss wallpaper; the user tile is a generic illustration.
+Archive paths are relative. Symlinks are materialized only within asset roots.
+Archive entries omit original file timestamps, ownership and extra fields.
+These checks found no private data; pattern scanning is not an absolute proof.

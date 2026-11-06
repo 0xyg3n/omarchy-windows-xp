@@ -1,0 +1,9 @@
+# Keep local state and accidental personal files out of the public bundle.
+.env
+.env.*
+*.log
+*.bak
+*.zip
+.DS_Store
+__pycache__/
+*.pyc

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "xp.launch",
+  "name": "XP Quick Launch",
+  "version": "1.0.0",
+  "description": "Windows XP Quick Launch toolbar",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Quick Launch",
+    "description": "XP Quick Launch",
+    "category": "Compositor",
+    "allowMultiple": false,
+    "defaultSection": "left"
+  }
+}
